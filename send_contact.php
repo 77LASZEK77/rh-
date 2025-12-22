@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
     }
 
-    $to = "rejestracja@rhplus.com.pl";
+    $to = "batlomiejlach.7@gmail.com";
     $email_subject = "Wiadomość z formularza kontaktowego: " . $subject;
     $email_body = "Imię i Nazwisko: $name\nE-mail: $email\nDział: $department\nInformacja dla pacjenta: $info\nTemat: $subject\nWiadomość: $message\nKod potwierdzający: $captcha";
 
@@ -29,3 +29,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Nieprawidłowa metoda żądania.";
 }
 ?>
+
