@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RH+ Najlepsze Centrum Medyczne w Niepołomicach</title>
+  <meta name="description" content="RH+ to najlepsze centrum medyczne w Niepołomicach.">
+  <link rel="shortcut icon" href="graf/Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/Zespół.css">
+  <script src="js/Zespół.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <img src="graf/Logo.png" alt="RH+ logo" class="logo">
+  </header>
+
+  <main>
+    <section class="slideshow-section">
+      <!-- Lewa kolumna: ważne informacje -->
+      <aside class="header-info-panel" aria-labelledby="panel-title">
+        <h3 id="panel-title">Ważne informacje</h3>
+        <ul>
+          <li><a href="index.php">O nas</a></li>
+          <li><a href="informacje.php">Inoformacje</a></li>
+          <li><a href="Zespół.php">Zespół</a></li>
+          <li><a href="Usługi.php">Usługi</a></li>
+          <li><a href="Godziny.php">Godziny przyjęć</a></li>
+          <li><a href="Dojazd.php">Dojazd</a></li>
+          <li><a href="Galeria.php">Galeria</a></li>
+          <li><a href="Kontakt.php">Kontakt</a></li>
+        </ul>
+      </aside>
+
+      <!-- Prawa kolumna: slideshow -->
+      <div class="slideshow" aria-label="Pokaz zdjęć">
+        <div class="slide active"><img src="graf/rh+.jpg" alt="RH+ zewnątrz"></div>
+        <div class="slide"><img src="graf/Zewnętrzne2.jpg" alt="Zewnętrzne 2"></div>
+        <div class="slide"><img src="graf/korytarz1.jpg" alt="Korytarz"></div>
+        <div class="slide"><img src="graf/gabinet1.jpg" alt="Gabinet"></div>
+      </div>
+
+      <hr>
+    </section>
+
+    <section id="zespol">
+      <h2>Nasz Zespół</h2>
+      <div id="zbigniew-hauser" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Zbigniew Hauser" class="lekarz-img">
+        <h3>Lek. med. Zbigniew Hauser</h3>
+        <p><strong>Specjalność:</strong> Internista, medycyna sportowa, badania kierowców</p>
+        <p><strong>Opis:</strong> Doświadczony lekarz specjalizujący się w medycynie wewnętrznej, medycynie sportowej oraz badaniach kierowców. Zapewnia kompleksową opiekę zdrowotną.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja pon-pt 10:00-18:00, Tel. 66 55 99 055</p>
+      </div>
+      <div id="emilia-gozdzik" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Emilia Goździk" class="lekarz-img">
+        <h3>Emilia Goździk</h3>
+        <p><strong>Specjalność:</strong> Logopeda, Oligofrenopedagog</p>
+        <p><strong>Opis:</strong> Specjalistka w zakresie logopedii i oligofrenopedagogiki, pomagająca w rozwoju mowy i edukacji dzieci z niepełnosprawnościami.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja: (12) 250 06 33, Tel. 501 041 361</p>
+      </div>
+      <div id="justyna-kostyra-grabowska" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Justyna Kostyra-Grabowska" class="lekarz-img">
+        <h3>Lek. med. Justyna Kostyra-Grabowska</h3>
+        <p><strong>Specjalność:</strong> Dermatolog, Wenerolog</p>
+        <p><strong>Opis:</strong> Specjalistka dermatologii i wenerologii, zajmująca się diagnozowaniem i leczeniem chorób skóry oraz chorób przenoszonych drogą płciową.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja pon-pt 9:30-18:00, Tel. 12 250 06 33</p>
+      </div>
+      <div id="bartlomiej-szlachetka" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Bartłomiej Szlachetka" class="lekarz-img">
+        <h3>Lek. med. Bartłomiej Szlachetka</h3>
+        <p><strong>Specjalność:</strong> Specjalista Chirurgii Ogólnej i Onkologicznej</p>
+        <p><strong>Opis:</strong> Chirurg ogólny i onkologiczny, specjalizujący się w operacjach chirurgicznych oraz leczeniu nowotworów.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja pon-pt 9:30-18:00, Tel. 12 250 06 33</p>
+      </div>
+      <div id="boguslawa-zelwianska" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Bogusława Zelwiańska" class="lekarz-img">
+        <h3>Dr n. med. Bogusława Zelwiańska</h3>
+        <p><strong>Specjalność:</strong> Specjalista neurologii i pediatrii dziecięcej</p>
+        <p><strong>Opis:</strong> Neurolog i pediatra dziecięcy, zajmujący się diagnozowaniem i leczeniem chorób neurologicznych u dzieci.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja pon-pt 15-19, Tel. 730 407 215, E-mail: neuroeegmed@gmail.com</p>
+      </div>
+      <div id="agnieszka-kusina" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Agnieszka Kusina" class="lekarz-img">
+        <h3>Agnieszka Kusina</h3>
+        <p><strong>Specjalność:</strong> Badanie EEG</p>
+        <p><strong>Opis:</strong> Specjalistka wykonująca badania elektroencefalograficzne (EEG) dla diagnozy chorób neurologicznych.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja pon-pt 15-19, Tel. 730 407 220, 730 407 219, E-mail: nemrejestracja@gmail.com</p>
+      </div>
+      <div id="monika-konarska-wlosinska" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Monika Konarska-Włosińska" class="lekarz-img">
+        <h3>Lek. med. Monika Konarska-Włosińska</h3>
+        <p><strong>Specjalność:</strong> Ginekolog</p>
+        <p><strong>Opis:</strong> Ginekolog zajmujący się opieką zdrowotną kobiet, diagnozowaniem i leczeniem chorób ginekologicznych.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja pon-pt, Tel: 12 250 06 33, 66 55 99 55</p>
+      </div>
+      <div id="elzbieta-glonek-rerutkiewicz" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Elżbieta Glonek-Rerutkiewicz" class="lekarz-img">
+        <h3>Lek. dent. Elżbieta Glonek-Rerutkiewicz</h3>
+        <p><strong>Specjalność:</strong> Stomatolog</p>
+        <p><strong>Opis:</strong> Stomatolog specjalizujący się w leczeniu zębów, profilaktyce i chirurgii stomatologicznej.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja: Tel. 12 281 33 49</p>
+      </div>
+      <div id="michal-rerutkiewicz" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Michał Rerutkiewicz" class="lekarz-img">
+        <h3>Lek. dent. Michał Rerutkiewicz</h3>
+        <p><strong>Specjalność:</strong> Stomatolog</p>
+        <p><strong>Opis:</strong> Stomatolog oferujący kompleksowe leczenie stomatologiczne, w tym protetykę i ortodoncję.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja: Tel. 12 281 33 49</p>
+      </div>
+      <div id="krzysztof-dudek" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Krzysztof Dudek" class="lekarz-img">
+        <h3>Lek. dent. Krzysztof Dudek</h3>
+        <p><strong>Specjalność:</strong> Stomatolog</p>
+        <p><strong>Opis:</strong> Stomatolog zajmujący się leczeniem kanałowym, implantologią i estetyką zębów.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja: Tel. 12 281 33 49</p>
+      </div>
+      <div id="maciej-opach" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Maciej Opach" class="lekarz-img">
+        <h3>Lek. stom. Maciej Opach</h3>
+        <p><strong>Specjalność:</strong> Stomatolog, Chirurg stomatolog</p>
+        <p><strong>Opis:</strong> Chirurg stomatolog specjalizujący się w skomplikowanych zabiegach chirurgicznych jamy ustnej.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja: Tel. 12 281 33 49</p>
+      </div>
+      <div id="natalia-gustynska" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Natalia Gustyńska" class="lekarz-img">
+        <h3>Lek. dent. Natalia Gustyńska</h3>
+        <p><strong>Specjalność:</strong> Stomatolog</p>
+        <p><strong>Opis:</strong> Stomatolog oferujący leczenie zachowawcze, protetyczne i dziecięce.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja: Tel. 12 281 33 49</p>
+      </div>
+      <div id="katarzyna-malaga" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Katarzyna Malaga" class="lekarz-img">
+        <h3>Lek. dent. Katarzyna Malaga</h3>
+        <p><strong>Specjalność:</strong> Stomatolog</p>
+        <p><strong>Opis:</strong> Stomatolog specjalizujący się w stomatologii estetycznej i profilaktyce chorób jamy ustnej.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Rejestracja: Tel. 12 281 33 49</p>
+      </div>
+      <div id="grazyna-glonek" class="lekarz">
+        <img src="graf/logo.png" alt="Zdjęcie Grażyna Glonek" class="lekarz-img">
+        <h3>Lek. med. Grażyna Glonek</h3>
+        <p><strong>Specjalność:</strong> Specjalista chorób dzieci, Lekarz Medycyny Estetycznej, Dyplomowany Kosmetolog</p>
+        <p><strong>Opis:</strong> Pediatra, lekarz medycyny estetycznej i kosmetolog, oferujący opiekę nad dziećmi oraz zabiegi estetyczne.</p>
+        <p><strong>Coś o mnie:</strong></p>
+        <p><strong>Kontakt:</strong> Pacjent pediatryczny: (12) 250 06 33, 601 886 866; Medycyna estetyczna: 601 886 866; E-mail: gabinet@drglonek.pl</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <!-- Stopka -->
+    <div class="lastsection">
+      <div class="footer-columns">
+        <div class="firstkol">
+          <p class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Lokalizacja
+          </p>
+          <p class="ml-6">Targowa 7A</p>
+          <p class="ml-6">32-005 Niepołomice</p>
+        </div>
+        <div class="twicekol">
+          <p class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+            Kontakt
+          <p>Stomatologia: 12 281 33 49</p>
+          <p>Lekarze Specjaliści: 12 250 06 33</p>
+        </div>
+        <div class="tricekol">
+          <p class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            E-mail
+          </p>
+          <p class="ml-6">rejestracja@rhplus.com.pl</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

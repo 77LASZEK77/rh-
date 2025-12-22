@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RH+ Najlepsze Centrum Medyczne w Niepołomicach</title>
+  <meta name="description" content="RH+ to najlepsze centrum medyczne w Niepołomicach.">
+  <link rel="shortcut icon" href="graf/Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/Usługi.css">
+  <script src="js/Usługi.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <img src="graf/Logo.png" alt="RH+ logo" class="logo">
+  </header>
+
+  <main>
+    <section class="slideshow-section">
+      <!-- Lewa kolumna: ważne informacje -->
+      <aside class="header-info-panel" aria-labelledby="panel-title">
+        <h3 id="panel-title">Ważne informacje</h3>
+        <ul>
+          <li><a href="index.php">O nas</a></li>
+          <li><a href="informacje.php">Inoformacje</a></li>
+          <li><a href="Zespół.php">Zespół</a></li>
+          <li><a href="Usługi.php">Usługi</a></li>
+          <li><a href="Godziny.php">Godziny przyjęć</a></li>
+          <li><a href="Dojazd.php">Dojazd</a></li>
+          <li><a href="Galeria.php">Galeria</a></li>
+          <li><a href="Kontakt.php">Kontakt</a></li>
+        </ul>
+      </aside>
+
+      <!-- Prawa kolumna: slideshow -->
+      <div class="slideshow" aria-label="Pokaz zdjęć">
+        <div class="slide active"><img src="graf/rh+.jpg" alt="RH+ zewnątrz"></div>
+        <div class="slide"><img src="graf/Zewnętrzne2.jpg" alt="Zewnętrzne 2"></div>
+        <div class="slide"><img src="graf/korytarz1.jpg" alt="Korytarz"></div>
+        <div class="slide"><img src="graf/gabinet1.jpg" alt="Gabinet"></div>
+      </div>
+
+      <hr>
+    </section>
+
+    <section id="uslugi">
+      <h2>Nasze Usługi</h2>
+      <p style="color: red; font-weight: bold;">Aktualnie nie świadczymy usług w ramach Narodowego Funduszu Zdrowia</p>
+
+      <details>
+        <summary>Stomatologia i ortodoncja</summary>
+        <img src="graf/gabinet1.jpg" alt="Stomatologia" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p><strong>Badania:</strong></p>
+        <ul>
+          <li>przegląd jamy ustnej</li>
+          <li>badanie radiologiczne zębów</li>
+        </ul>
+        <p><strong>Zabiegi:</strong></p>
+        <ul>
+          <li>rekonstrukcja zęba</li>
+          <li>znieczulenie zęba</li>
+          <li>leczenie kanałowe</li>
+          <li>skaling zębów</li>
+          <li>ekstrakcja zęba</li>
+          <li>fluoryzacja</li>
+          <li>wypełnienie ubytku</li>
+          <li>piaskowanie</li>
+          <li>szynowanie zębów</li>
+          <li>wybielanie zębów</li>
+        </ul>
+        <p><strong>Leczone choroby:</strong></p>
+        <ul>
+          <li>wady zgryzu</li>
+          <li>choroby przyzębia</li>
+          <li>zapalenie miazgi</li>
+          <li>paradontoza</li>
+          <li>choroby dziąseł</li>
+          <li>nadwrażliwość zębów</li>
+          <li>choroby miazgi zębów mlecznych</li>
+          <li>krwawienie zębów</li>
+          <li>cuchnięcie z ust</li>
+          <li>próchnica</li>
+          <li>zapalenie przyzębia</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Oligofrenopedagog - Zajęcia terapeutyczne TUS, Zajęcia terapeutyczne Terapia ręki</summary>
+        <img src="graf/rh+.jpg" alt="Oligofrenopedagog" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p><strong>Terapia ręki</strong> to działania mające na celu poprawienie funkcjonowania dziecka w życiu codziennym oraz w czynnościach samoobsługowych poprzez usprawnienie motoryki małej, precyzyjnych ruchów dłoni i palców oraz przez dostarczanie wrażeń czuciowych. Terapia ręki skierowana jest zarówno do dzieci z zaburzeniami rozwoju, jak i dzieci w normie intelektualnej, mających specyficzne trudności w uczeniu się. Terapia ręki ma na celu:</p>
+        <ul>
+          <li>poprawienie motoryki małej/dużej</li>
+          <li>doskonalenie postawy ciała w tym, postawy ciała przy stole</li>
+          <li>doskonalenie stabilizacji posturalnej</li>
+          <li>usprawnienie percepcji czuciowej powierzchni głębokiej</li>
+          <li>usprawnianie percepcji wzrokowej, w celu doskonalenia koordynacji oko-ręka</li>
+          <li>doskonalenie koordynacji lateralizacji, koordynacji bilateralnej</li>
+          <li>usprawnianie umiejętności manipulowania</li>
+          <li>korekcja i doskonalenie chwytu pisarskiego, grafomotoryki</li>
+        </ul>
+        <p>Terapia skierowana jest do dzieci, które:</p>
+        <ul>
+          <li>wykazują niechęć do podejmowania czynności manualnych, korzystania z materiałów plastycznych: malowanie farbami, masy plastyczne, klejenie</li>
+          <li>problem z czynnościami samoobsługi w codziennych działaniach jak ubieranie się, zapinanie guzików, wiązanie butów itp.</li>
+          <li>unikanie dotykania niektórych faktur, dotykania niektórych przedmiotów</li>
+          <li>zbyt wolne lub zbyt szybkie działanie a w efekcie niezgrabność ruchów</li>
+          <li>czynności są wykonywane niedokładnie</li>
+          <li>nietypowe zachowania, które są próbą dostymulowania dłoni, zapewnienie sobie doznań proprioceptywnych (np. kładzenie sobie ciężkich przedmiotów na ręce, wbijanie w nie paznokci, przedmiotów</li>
+          <li>nieprawidłowy chwyt narzędzia pisarskiego, nietypowe ułożenie ręki w trakcie trzymania ołówka, sztućców itp.</li>
+          <li>nieprawidłowa siła oddziaływania narzędziem, np. dziecko przebija kolejne kartki długopisem</li>
+        </ul>
+        <p><strong>Terapia TUS</strong> skierowana jest zarówno do dzieci z zaburzeniami rozwoju - autyzm (w tym zespół Aspergera) jak i dzieci w normie intelektualnej, mającymi trudności z umiejętnościami warunkującymi efektywność regulacji emocjonalnej i radzenia sobie w różnego rodzaju sytuacjach społecznych min:</p>
+        <ul>
+          <li>z percepcją społeczną: umiejętnością obserwacji innych, a także interpretowania ich zachowań – na przykład ich przeżyć lub intencji, a także prawidłowej oceny sytuacji społecznych</li>
+          <li>wrażliwością społeczną</li>
+          <li>empatią (zdolnością zrozumienia lub odczuwania tego, co przeżywa inna osoba, zdolnością do postawienia się w pozycji innej osoby)</li>
+          <li>znajomością ogólnie przyjętych reguł społecznych i umiejętnością odpowiedniego zachowania się w sytuacjach społecznych (np. zachowanie pewnej powściągliwości w kontaktach z obcymi osobami)</li>
+          <li>z umiejętnością rozwiązywania konkretnych problemów interpersonalnych i sterowania sytuacjami społecznymi (np. rozwiązywania konfliktów bez zachowań agresywnych)</li>
+          <li>z umiejętnością warunkującą radzenie sobie w sytuacjach konfliktowych i wymagających asertywności</li>
+          <li>z dobrą autoprezentacją i umiejętnością wpływania na innych</li>
+          <li>z umiejętnością komunikacyjną i kooperacyjną</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Pediatria i neurologia dziecięca, EEG głowy</summary>
+        <img src="graf/korytarz1.jpg" alt="Pediatria i neurologia" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p><strong>Zabiegi wykonywane w ramach pracowni:</strong></p>
+        <p>dr n. med. Bogusława Zelwiańska</p>
+        <ul>
+          <li>Badanie EEG w czuwaniu</li>
+          <li>Badanie EEG po deprywacji snu</li>
+          <li>Badanie EEG w okresie snu fizjologicznego</li>
+        </ul>
+        <p>Więcej informacji na temat badań, zabiegów można przeczytać bezpośrednio na stronie pracowni <a href="http://www.neuroeeg-med.pl" target="_blank">www.neuroeeg-med.pl</a>.</p>
+      </details>
+
+      <details>
+        <summary>Porady lekarskie dla dzieci i dorosłych</summary>
+        <img src="graf/Zewnętrzne2.jpg" alt="Porady lekarskie" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p>lek. med. Zbigniew Hauser</p>
+        <ul>
+          <li>ekg spoczynkowe</li>
+          <li>ekg wysiłkowe na bieżni ruchomej</li>
+        </ul>
+        <p><strong>Ceny:</strong></p>
+        <ul>
+          <li>Porada lekarska - 140 zł</li>
+          <li>EKG spoczynkowe - 70 zł</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Medycyna sportowa dla dzieci i dorosłych do 23 r.ż.</summary>
+        <img src="graf/gabinet1.jpg" alt="Medycyna sportowa" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p>lek. med. Zbigniew Hauser</p>
+        <p>Kwalifikacja dzieci i młodzieży do 23 roku życia do uprawiania sportu kwalifikowanego. W ramach wizyty wykonywane są pomiary antropometryczne waga, wzrost, BMI, obwody ramion, ud oraz ekg spoczynkowe lub wysiłkowe na bieżni w zależności od dyscypliny sportowej i wieku.</p>
+        <p>Na badanie należy zgłosić się z aktualnymi wynikami badań laboratoryjnych (OB, morfologia, cukier, mocz ogólny).</p>
+        <p>W sportach walki dodatkowo - co 2 lata zaświadczenie od neurologa o braku p/wskazań do uprawiania sportów walki oraz badania krwi - HIV i anty-HCV.</p>
+        <p>Osoby które mają wadę wzroku muszą posiadać również zaświadczenie od okulisty. Zdolność do uprawiania sportu wydane jest na 6 lub 12 miesięcy w zależności od stanu zdrowia sportowca.</p>
+        <p><strong>Ceny:</strong></p>
+        <ul>
+          <li>Kwalifikacja sportowca do uprawiania sportu - 120 zł</li>
+          <li>EKG wysiłkowe na bieżni ruchomej - 140 zł</li>
+          <li>EKG spoczynkowe - 70 zł</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Badania kandydatów na kierowców i kierowców</summary>
+        <img src="graf/korytarz1.jpg" alt="Badania kierowców" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p>lek. med. Zbigniew Hauser</p>
+        <p>Badaniu podlegają osoby starające się o prawo jazdy lub osoby które posiadają okresowe prawo jazdy np. z powodu wady wzroku. Zaświadczenie wymagane jest przez Starostwa Powiatowe. Na badanie należy zgłosić się z aktualnym wynikiem badania cukru /glukozy/ oraz dokumentem tożsamości ze zdjęciem. Osoby niepełnoletnie zgłaszają się z rodzicem. Koszt badania od roku 2015 jest jednakowy w całej Polsce i wynosi 200zł. Wykonuję badania dla kategorii A, B, T.</p>
+        <p><strong>Cena:</strong></p>
+        <ul>
+          <li>Badanie kandydata na kierowcę - 200 zł</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Ginekologia</summary>
+        <img src="graf/Zewnętrzne2.jpg" alt="Ginekologia" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p>lek. med. Monika Konarska-Włosińska</p>
+        <p><strong>Usługi - Ginekologia:</strong></p>
+        <ul>
+          <li>Wizyta ginekologiczna - 200 zł</li>
+          <li>Wizyta ginekologiczna z USG - 250 zł</li>
+          <li>Wizyta ginekologiczna z USG + USG piersi - 350 zł</li>
+          <li>USG ginekologiczne - 150 zł</li>
+          <li>USG piersi - 150 zł</li>
+          <li>Monitoring owulacji - 100 zł</li>
+          <li>Badanie drożności jajowodów metodą HyCoSy - 750 zł</li>
+          <li>Założenie wkładki hormonalnej (Mirena/Jaydess) - 1300 zł</li>
+          <li>Usunięcie wkładki - 200 zł</li>
+          <li>Recepta - 50 zł</li>
+        </ul>
+        <p><strong>Usługi - Położnictwo:</strong></p>
+        <ul>
+          <li>Wizyta położnicza - 200 zł</li>
+          <li>Wizyta położnicza z USG - 250 zł</li>
+          <li>USG ciąży do 10 tc. - 150 zł</li>
+          <li>USG I trymestr z analizą FMF - 350 zł</li>
+          <li>USG II trymestr - 300 zł</li>
+          <li>USG III trymestr - 300 zł</li>
+          <li>Wizyta położnicza z USG I trymestru - 450 zł</li>
+          <li>Wizyta położnicza z USG II/III trymestru - 400 zł</li>
+          <li>USG Ciąży bliźniaczej - +100 zł do ceny badania USG</li>
+          <li>USG monitorowanie wzrastania - 150 zł</li>
+          <li>USG badanie dopplerowskie - 150 zł</li>
+        </ul>
+        <p>W trakcie wizyty jest możliwość pobrania cytologii oraz niezbędnych wymazów (bakteriologicznych/mykologicznych). Istnieje sposobność nagrania USG 3D/4D na pendrive.</p>
+        <p>Płatności kartą i gotówką. Możliwość wystawienia faktury.</p>
+        <p>Rejestracja: 12 260 06 33 lub 66 55 99 055</p>
+      </details>
+
+      <details>
+        <summary>Medycyna estetyczna</summary>
+        <img src="graf/rh+.jpg" alt="Medycyna estetyczna" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p>Proponuje profesjonalne zabiegi:</p>
+        <ul>
+          <li>korekcji zmarszczek, kształtu ust, nosa oraz lifting twarzy i innych części ciała z użyciem preparatów kwasu hialuronowego renomowanych firm, Botoxu (leczenia migreny, bruksizmy)</li>
+          <li>zabiegu biorewitalizacji i bioregenracji skóry (specjalistyczne pilingi, mezoterapia, zastosowanie własnego osocza bogatopłytkowego, własnych komórek macierzystych)</li>
+          <li>leczenie cellulitu, rozstępów, blizn, przebarwień, nadmiernego wypadania włosów, trądziku pospolitego, nadmiernej potliwości</li>
+        </ul>
+        <p>Więcej informacji na temat zabiegów pod adresem <a href="http://drglonek.pl/zabiegi/" target="_blank">http://drglonek.pl/zabiegi/</a>.</p>
+      </details>
+
+      <details>
+        <summary>Dermatologia</summary>
+        <img src="graf/gabinet1.jpg" alt="Dermatologia" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p>lek. med. Justyna Kostyra-Grabowska</p>
+        <p><strong>Zakres świadczeń:</strong></p>
+        <ul>
+          <li>konsultacje dermatologiczne dzieci</li>
+          <li>konsultacje dermatologiczne osób dorosłych</li>
+          <li>badanie dermatoskopowe znamion</li>
+          <li>usuwanie drobnych zmian skórnych</li>
+          <li>mezoterapia skóry głowy (zabieg wspomagający leczenie wypadania włosów)</li>
+          <li>konsultacje z zakresu medycyny estetycznej</li>
+        </ul>
+        <p><strong>Przykładowe choroby leczone przez dermatologa:</strong></p>
+        <ul>
+          <li>trądzik</li>
+          <li>trądzik różowaty</li>
+          <li>atopowe zapalenie skóry</li>
+          <li>grzybica paznokci</li>
+          <li>grzybica skóry</li>
+          <li>brodawek wirusowe</li>
+          <li>łuszczyca</li>
+          <li>łojotokowe zapalenie skóry</li>
+          <li>wypadanie włosów</li>
+          <li>bakteryjne infekcje skóry</li>
+          <li>egzema</li>
+          <li>przebarwienia skóry</li>
+          <li>blizny</li>
+          <li>opryszczka</li>
+          <li>mięczak zakaźny</li>
+          <li>półpasiec</li>
+        </ul>
+      </details>
+
+      <details>
+        <summary>Chirurgia ogólna - konsultacje, drobne zabiegi, usuwanie znamion</summary>
+        <img src="graf/korytarz1.jpg" alt="Chirurgia ogólna" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p>lek. med. Bartłomiej Szlachetka</p>
+        <p>Specjalista Chirurgii Ogólnej, Specjalista Chirurgii Onkologicznej</p>
+        <p>Bogate doświadczenie w chirurgicznym leczeniu (klasycznym i laparoskopowym) schorzeń żołądka, jelita grubego, chorób proktologicznych, kamicy pęcherzyka żółciowego, a także tarczycy oraz przepuklin. Zajmuję się leczeniem chirurgicznym zmian skórnych, w tym nowotworowych. Na codzień pracuję w Oddziale Chirurgii Ogólnej, Onkologicznej i Małoinwazyjnej Szpitala im. Żeromskiego jako Kierownik Oddziału.</p>
+        <p>W Gabinecie wykonywane są:</p>
+        <ul>
+          <li>konsultacje w/w zakresie</li>
+          <li>ambulatoryjne zabiegi z zastosowaniem znieczulenia miejscowego (wyłącznie sprzęt jednorazowy) takie jak: wycięcie kaszaków, tłuszczaków, znamion barwnikowych i innych zmian skórnych, zdejmowanie bądź klinowe wycinanie wrastających paznokci</li>
+          <li>badanie anoskopowe i rektoskopowe</li>
+          <li>leczenie hemoroidów met. Barrona</li>
+          <li>badania kontrolne, usunięcie szwów itp</li>
+        </ul>
+        <p><strong>Ceny:</strong></p>
+        <ul>
+          <li>Konsultacja chirurgiczna – 200 zł</li>
+          <li>Konsultacja proktologiczna – 200 zł</li>
+          <li>Konsultacja proktologiczna z rektoskopia – 300 zł</li>
+          <li>usunięcie szwów + opatrunek 100 zł</li>
+          <li>Wycięcie zmiany skórnej lub podskórnej w znieczuleniu miejscowym: mały zabieg 300 zł, średni zabieg 400 zł, duży zabieg 800 zł</li>
+          <li>badanie histo-patologiczne 50 pln</li>
+          <li>Leczenie hemoroidów metodą Barrona od 400 zł</li>
+          <li>Obliteracja pajączków żylnych od 400 zł</li>
+          <li>Nacięcie ropnia w znieczuleniu od 300 zł</li>
+          <li>Wycięcie klinowe paznokcia wrastającego 350 zł</li>
+          <li>Usunięcie płytki paznokciowej 400 zł</li>
+          <li>Wszycie Esperalu (bez ceny leku) 800 zł</li>
+        </ul>
+        <p><strong>PŁATNOŚĆ TYLKO GOTÓWKĄ</strong></p>
+      </details>
+
+      <details>
+        <summary>Proktologia</summary>
+        <img src="graf/Zewnętrzne2.jpg" alt="Proktologia" style="width: 100%; max-width: 400px; margin: 10px 0;">
+        <p>lek. med. Bartłomiej Szlachetka</p>
+        <p>Specjalista Chirurgii Ogólnej, Specjalista Chirurgii Onkologicznej</p>
+        <p>Bogate doświadczenie w chirurgicznym leczeniu (klasycznym i laparoskopowym) schorzeń żołądka, jelita grubego, chorób proktologicznych, kamicy pęcherzyka żółciowego, a także tarczycy oraz przepuklin. Zajmuję się leczeniem chirurgicznym zmian skórnych, w tym nowotworowych. Na codzień pracuję w Oddziale Chirurgii Ogólnej, Onkologicznej i Małoinwazyjnej Szpitala im. Żeromskiego jako Kierownik Oddziału.</p>
+        <p>W Gabinecie wykonywane są:</p>
+        <ul>
+          <li>konsultacje w/w zakresie</li>
+          <li>ambulatoryjne zabiegi z zastosowaniem znieczulenia miejscowego (wyłącznie sprzęt jednorazowy) takie jak: wycięcie kaszaków, tłuszczaków, znamion barwnikowych i innych zmian skórnych, zdejmowanie bądź klinowe wycinanie wrastających paznokci</li>
+          <li>badanie anoskopowe i rektoskopowe</li>
+          <li>leczenie hemoroidów met. Barrona</li>
+          <li>badania kontrolne, usunięcie szwów itp</li>
+        </ul>
+        <p><strong>Ceny:</strong></p>
+        <ul>
+          <li>Konsultacja chirurgiczna – 200 zł</li>
+          <li>Konsultacja proktologiczna – 200 zł</li>
+          <li>Konsultacja proktologiczna z rektoskopia – 300 zł</li>
+          <li>usunięcie szwów + opatrunek 100 zł</li>
+          <li>Wycięcie zmiany skórnej lub podskórnej w znieczuleniu miejscowym: mały zabieg 300 zł, średni zabieg 400 zł, duży zabieg 800 zł</li>
+          <li>badanie histo-patologiczne 50 pln</li>
+          <li>Leczenie hemoroidów metodą Barrona od 400 zł</li>
+          <li>Obliteracja pajączków żylnych od 400 zł</li>
+          <li>Nacięcie ropnia w znieczuleniu od 300 zł</li>
+          <li>Wycięcie klinowe paznokcia wrastającego 350 zł</li>
+          <li>Usunięcie płytki paznokciowej 400 zł</li>
+          <li>Wszycie Esperalu (bez ceny leku) 800 zł</li>
+        </ul>
+        <p><strong>PŁATNOŚĆ TYLKO GOTÓWKĄ</strong></p>
+      </details>
+    </section>
+  </main>
+  <footer>
+    <!-- Stopka -->
+    <div class="lastsection">
+      <div class="footer-columns">
+        <div class="firstkol">
+          <p class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Lokalizacja
+          </p>
+          <p class="ml-6">Targowa 7A</p>
+          <p class="ml-6">32-005 Niepołomice</p>
+        </div>
+        <div class="twicekol">
+          <p class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+            Kontakt
+          <p>Stomatologia: 12 281 33 49</p>
+          <p>Lekarze Specjaliści: 12 250 06 33</p>
+        </div>
+        <div class="tricekol">
+          <p class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            E-mail
+          </p>
+          <p class="ml-6">rejestracja@rhplus.com.pl</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

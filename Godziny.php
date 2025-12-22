@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>RH+ Najlepsze Centrum Medyczne w Niepołomicach</title>
+  <meta name="description" content="RH+ to najlepsze centrum medyczne w Niepołomicach.">
+  <link rel="shortcut icon" href="graf/Logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/godziny.css">
+  <script src="js/Godziny.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <img src="graf/Logo.png" alt="RH+ logo" class="logo">
+  </header>
+
+  <main>
+
+    <section class="slideshow-section">
+      <!-- Lewa kolumna: ważne informacje -->
+      <aside class="header-info-panel" aria-labelledby="panel-title">
+        <h3 id="panel-title">Ważne informacje</h3>
+        <ul>
+          <li><a href="index.php">O nas</a></li>
+          <li><a href="informacje.php">Inoformacje</a></li>
+          <li><a href="Zespół.php">Zespół</a></li>
+          <li><a href="Usługi.php">Usługi</a></li>
+          <li><a href="Godziny.php">Godziny przyjęć</a></li>
+          <li><a href="Dojazd.php">Dojazd</a></li>
+          <li><a href="Galeria.php">Galeria</a></li>
+          <li><a href="Kontakt.php">Kontakt</a></li>
+        </ul>
+      </aside>
+
+      <!-- Prawa kolumna: slideshow -->
+      <div class="slideshow" aria-label="Pokaz zdjęć">
+        <div class="slide active"><img src="graf/rh+.jpg" alt="RH+ zewnątrz"></div>
+        <div class="slide"><img src="graf/Zewnętrzne2.jpg" alt="Zewnętrzne 2"></div>
+        <div class="slide"><img src="graf/korytarz1.jpg" alt="Korytarz"></div>
+        <div class="slide"><img src="graf/gabinet1.jpg" alt="Gabinet"></div>
+      </div>
+
+      <hr>
+    </section>
+
+    <section id="godziny">
+      <h2>Godziny przyjęć lekarzy</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Imię i nazwisko</th>
+            <th>Specjalność</th>
+            <th>Godziny przyjęć</th>
+            <th>Kontakt / rejestracja</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="Zespół.php#zbigniew-hauser">Lek. med. Zbigniew Hauser</a></td>
+            <td>Internista, medycyna sportowa, badania kierowców</td>
+            <td>Poniedziałek: 17:00-20<br>Wtorek: 16:30-20<br>Środa: 16:30-20</td>
+            <td>Rejestracja pon-pt 10:00-18:00<br>Tel. 66 55 99 055<br>Kontakt domowy: Tel. 607 607 202 (zawieszone)</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#emilia-gozdzik">Emilia Goździk</a></td>
+            <td>Logopeda, Oligofrenopedagog</td>
+            <td>po telefonicznym uzgodnieniu</td>
+            <td>Rejestracja: (12) 250 06 33<br>Tel. 501 041 361</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#justyna-kostyra-grabowska">Lek. med. Justyna Kostyra-Grabowska</a></td>
+            <td>Dermatolog, Wenerolog</td>
+            <td>Wtorek: 17:00-18:30</td>
+            <td>Rejestracja pon-pt 9:30-18:00<br>Tel. 12 250 06 33</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#bartlomiej-szlachetka">Lek. med. Bartłomiej Szlachetka</a></td>
+            <td>Specjalista Chirurgii Ogólnej i Onkologicznej</td>
+            <td>Poniedziałek: 15:00-19:00</td>
+            <td>Rejestracja pon-pt 9:30-18:00<br>Tel. 12 250 06 33</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#boguslawa-zelwianska">Dr n. med. Bogusława Zelwiańska</a></td>
+            <td>Specjalista neurologii i pediatrii dziecięcej</td>
+            <td>Wtorek: 15-18<br>Piątek: 15-18</td>
+            <td>Rejestracja pon-pt 15-19<br>Tel. 730 407 215<br>E-mail: neuroeegmed@gmail.com</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#agnieszka-kusina">Agnieszka Kusina</a></td>
+            <td>Badanie EEG</td>
+            <td>Poniedziałek: 15-19</td>
+            <td>Rejestracja pon-pt 15-19<br>Tel. 730 407 220, 730 407 219<br>E-mail: nemrejestracja@gmail.com</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#monika-konarska-wlosinska">Lek. med. Monika Konarska-Włosińska</a></td>
+            <td>Ginekolog</td>
+            <td>Poniedziałek: 8:00-13:00<br>Wtorek: 8:30-14:00<br>Czwartek: 12:30-16:30</td>
+            <td>Rejestracja pon-pt<br>Tel: 12 250 06 33, 66 55 99 55</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#elzbieta-glonek-rerutkiewicz">Lek. dent. Elżbieta Glonek-Rerutkiewicz</a></td>
+            <td>Stomatolog</td>
+            <td>Poniedziałek: 12:00-18:00<br>Środa: 12:00-18:00<br>Czwartek: 9-13:30</td>
+            <td>Rejestracja: Tel. 12 281 33 49</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#michal-rerutkiewicz">Lek. dent. Michał Rerutkiewicz</a></td>
+            <td>Stomatolog</td>
+            <td>Wtorek: 8:30-16:00<br>Piątek: 10:00-19:00</td>
+            <td>Rejestracja: Tel. 12 281 33 49</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#krzysztof-dudek">Lek. dent. Krzysztof Dudek</a></td>
+            <td>Stomatolog</td>
+            <td>Wtorek: 10:00-19:00<br>Piątek: 10:00-19:00</td>
+            <td>Rejestracja: Tel. 12 281 33 49</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#maciej-opach">Lek. stom. Maciej Opach</a></td>
+            <td>Stomatolog, Chirurg stomatolog</td>
+            <td>Raz w miesiącu</td>
+            <td>Rejestracja: Tel. 12 281 33 49</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#natalia-gustynska">Lek. dent. Natalia Gustyńska</a></td>
+            <td>Stomatolog</td>
+            <td>Piątek: 16:00-19:00</td>
+            <td>Rejestracja: Tel. 12 281 33 49</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#katarzyna-malaga">Lek. dent. Katarzyna Malaga</a></td>
+            <td>Stomatolog</td>
+            <td>Poniedziałek: 9:00-16:00<br>Środa: 9:00-16:30</td>
+            <td>Rejestracja: Tel. 12 281 33 49</td>
+          </tr>
+          <tr>
+            <td><a href="Zespół.php#grazyna-glonek">Lek. med. Grażyna Glonek</a></td>
+            <td>Specjalista chorób dzieci, Lekarz Medycyny Estetycznej, Dyplomowany Kosmetolog</td>
+            <td>po telefonicznym uzgodnieniu</td>
+            <td>Pacjent pediatryczny: (12) 250 06 33, 601 886 866<br>Medycyna estetyczna: 601 886 866<br>E-mail: gabinet@drglonek.pl</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <!-- Stopka -->
+    <div class="lastsection">
+      <div class="footer-columns">
+        <div class="firstkol">
+          <p class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Lokalizacja
+          </p>
+          <p class="ml-6">Targowa 7A</p>
+          <p class="ml-6">32-005 Niepołomice</p>
+        </div>
+        <div class="twicekol">
+          <p class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+            Kontakt
+          <p>Stomatologia: 12 281 33 49</p>
+          <p>Lekarze Specjaliści: 12 250 06 33</p>
+        </div>
+        <div class="tricekol">
+          <p class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            E-mail
+          </p>
+          <p class="ml-6">rejestracja@rhplus.com.pl</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
