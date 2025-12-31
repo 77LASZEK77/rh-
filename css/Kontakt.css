@@ -161,4 +161,101 @@ main { padding: 8px 16px 40px; flex: 1; }
   
   .ml-6 {
     margin-left: 1.5rem;
+
   }
+#kontakt form{
+  background:#ffffff;
+  padding:26px;
+  border-radius:14px;
+  box-shadow:0 12px 32px rgba(25,118,210,0.15);
+  max-width:640px;
+  margin-top:24px;
+}
+
+/* teksty / opisy */
+#kontakt form p,
+#kontakt form span,
+#kontakt form small{
+  color:#333;
+  line-height:1.5;
+}
+
+/* label */
+#kontakt form label{
+  display:block;
+  font-weight:600;
+  margin:14px 0 6px;
+  color:#222;
+}
+
+/* WSZYSTKIE POLA */
+#kontakt form input,
+#kontakt form textarea,
+#kontakt form select{
+  width:100%;
+  padding:12px 14px;
+  border-radius:10px;
+  border:1.8px solid #cfd8e3;
+  font-size:1rem;
+  font-family:inherit;
+  background:#fff;
+  transition:border .2s ease, box-shadow .2s ease;
+}
+
+/* focus */
+#kontakt form input:focus,
+#kontakt form textarea:focus,
+#kontakt form select:focus{
+  outline:none;
+  border-color:var(--accent);
+  box-shadow:0 0 0 3px rgba(25,118,210,0.18);
+}
+
+/* SELECT – strzałka */
+#kontakt form select{
+  appearance:none;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--accent) 50%),
+    linear-gradient(135deg, var(--accent) 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) 50%,
+    calc(100% - 14px) 50%;
+  background-size:6px 6px;
+  background-repeat:no-repeat;
+  cursor:pointer;
+}
+
+/* textarea */
+#kontakt form textarea{
+  resize:vertical;
+  min-height:120px;
+}
+
+/* przycisk */
+#kontakt form button,
+#kontakt form input[type="submit"]{
+  margin-top:18px;
+  width:100%;
+  padding:14px;
+  font-size:1.05rem;
+  font-weight:700;
+  border:none;
+  border-radius:12px;
+  cursor:pointer;
+  background:var(--accent);
+  color:#fff;
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+
+#kontakt form button:hover,
+#kontakt form input[type="submit"]:hover{
+  transform:translateY(-2px);
+  box-shadow:0 10px 22px rgba(25,118,210,0.25);
+}
+
+/* MOBILE */
+@media(max-width:640px){
+  #kontakt form{
+    padding:18px;
+  }
+}
