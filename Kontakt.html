@@ -36,7 +36,11 @@
 
       <!-- Prawa kolumna: slideshow -->
       <div class="slideshow" aria-label="Pokaz zdjęć">
-        <div class="slide active"><img src="graf/rh+.jpg" alt="RH+ zewnątrz"></div>
+        <div class="slide active"><img src="graf/gabinet1.jpg" alt="RH+ Gabinet 1" data-index="3"></div>
+        <div class="slide"><img src="graf/gabinet2.jpg" alt="RH+ Gabinet 2" data-index="3"></div>
+        <div class="slide"><img src="graf/gabinet3.jpg" alt="RH+ Gabinet 3" data-index="3"></div>
+        <div class="slide"><img src="graf/gabinet4.jpg" alt="RH+ Gabinet 4" data-index="3"></div>
+        <div class="slide"><img src="graf/gabinet5.jpg" alt="RH+ Gabinet 5" data-index="3"></div>
         <div class="slide"><img src="graf/Zewnętrzne2.jpg" alt="Zewnętrzne 2"></div>
         <div class="slide"><img src="graf/korytarz1.jpg" alt="Korytarz"></div>
         <div class="slide"><img src="graf/gabinet1.jpg" alt="Gabinet"></div>
@@ -45,63 +49,46 @@
       <hr>
     </section>
 
-    <section id="kontakt">
-      <h2>Kontakt – Centrum Medyczne RH+ Niepołomice</h2>
+<h3 class="form-title">Formularz kontaktowy</h3>
 
-      <p>
-        Zapraszamy do kontaktu z Centrum Medycznym RH+ w celu uzyskania
-        szczegółowych informacji, rejestracji wizyt oraz konsultacji
-        dotyczących oferowanych usług medycznych.
-      </p>
+<form class="contact-form" novalidate>
 
-      <h3>Rejestracja telefoniczna</h3>
-      <p>
-        Kontakt telefoniczny umożliwia szybkie umawianie wizyt,
-        zmianę terminów oraz uzyskanie informacji o dostępnych godzinach przyjęć.
-      </p>
+  <label for="name">Imię i Nazwisko:</label>
+  <input type="text" id="name" name="name" required>
 
-      <h3>Kontakt mailowy i osobisty</h3>
-      <p>
-        Pacjenci mogą również skontaktować się mailowo lub osobiście
-        w siedzibie placówki w godzinach pracy rejestracji.
-        Zachęcamy do wcześniejszego umawiania wizyt.
-      </p>
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" required>
 
-      <h3>Formularz kontaktowy</h3>
-      <?php session_start(); $captcha = rand(1000,9999); $_SESSION['captcha'] = $captcha; ?>
-      <p>Kod potwierdzający: <span style="user-select: none; font-weight: bold;"><?php echo $captcha; ?></span></p>
-      <form action="send_contact.php" method="post">
-        <label for="name">Imię i Nazwisko:</label>
-        <input type="text" id="name" name="name" required><br><br>
+  <label for="department">Dział:</label>
+  <select id="department" name="department">
+    <option value="Stomatologia">Stomatologia</option>
+    <option value="Pediatria">Pediatria</option>
+    <option value="Ginekologia">Ginekologia</option>
+    <option value="Dermatologia">Dermatologia</option>
+    <option value="Chirurgia">Chirurgia</option>
+    <option value="Inne">Inne</option>
+  </select>
 
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="email" required><br><br>
+  <label for="subject">Temat:</label>
+  <input type="text" id="subject" name="subject" required>
 
-        <label for="department">Dział:</label>
-        <select id="department" name="department">
-          <option value="stomatologia">Stomatologia</option>
-          <option value="pediatria">Pediatria</option>
-          <option value="ginekologia">Ginekologia</option>
-          <option value="dermatologia">Dermatologia</option>
-          <option value="chirurgia">Chirurgia</option>
-          <option value="inne">Inne</option>
-        </select><br><br>
+  <label for="message">Wiadomość:</label>
+  <textarea id="message" name="message" required></textarea>
 
-        <label for="info">Informacja dla pacjenta:</label>
-        <textarea id="info" name="info"></textarea><br><br>
+  <div class="form-row captcha-row">
+    <p>
+      Kod weryfikacyjny:
+      <strong id="captchaCode" class="captcha-code">----</strong>
+    </p>
 
-        <label for="subject">Temat:</label>
-        <input type="text" id="subject" name="subject" required><br><br>
+    <label for="captchaInput">Przepisz kod *</label>
+    <input type="text" id="captchaInput" inputmode="numeric" maxlength="4" required>
+  </div>
 
-        <label for="message">Wiadomość:</label>
-        <textarea id="message" name="message" required></textarea><br><br>
+  <button type="submit" class="btn submit-btn">Wyślij</button>
 
-        <label for="captcha">Kod potwierdzający:</label>
-        <input type="text" id="captcha" name="captcha" required><br><br>
+</form>
 
-        <button type="submit">Wyślij</button>
-      </form>
-    </section>
   </main>
   <footer>
     <!-- Stopka -->
@@ -148,4 +135,3 @@
 </body>
 
 </html>
-
