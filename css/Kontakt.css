@@ -172,90 +172,126 @@ main { padding: 8px 16px 40px; flex: 1; }
   margin-top:24px;
 }
 
-/* teksty / opisy */
-#kontakt form p,
-#kontakt form span,
-#kontakt form small{
-  color:#333;
-  line-height:1.5;
+.contact-form{
+  max-width: 520px;
+  margin: 24px 0;
+  padding: 22px 24px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
-/* label */
-#kontakt form label{
-  display:block;
-  font-weight:600;
-  margin:14px 0 6px;
-  color:#222;
+.contact-form{
+  max-width: 940px;
+  margin: 40px auto;
+  padding: 36px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* KLUCZ */
+  text-align: center;    /* KLUCZ */
 }
 
-/* WSZYSTKIE POLA */
-#kontakt form input,
-#kontakt form textarea,
-#kontakt form select{
-  width:100%;
-  padding:12px 14px;
-  border-radius:10px;
-  border:1.8px solid #cfd8e3;
-  font-size:1rem;
-  font-family:inherit;
-  background:#fff;
-  transition:border .2s ease, box-shadow .2s ease;
+.form-title{
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 28px;
+  color: #1976d2;
 }
 
-/* focus */
-#kontakt form input:focus,
-#kontakt form textarea:focus,
-#kontakt form select:focus{
-  outline:none;
-  border-color:var(--accent);
-  box-shadow:0 0 0 3px rgba(25,118,210,0.18);
+.contact-form label{
+  margin-top: 14px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  text-align: center;
 }
-
-/* SELECT – strzałka */
-#kontakt form select{
-  appearance:none;
-  background-image:
-    linear-gradient(45deg, transparent 50%, var(--accent) 50%),
-    linear-gradient(135deg, var(--accent) 50%, transparent 50%);
-  background-position:
-    calc(100% - 20px) 50%,
-    calc(100% - 14px) 50%;
-  background-size:6px 6px;
-  background-repeat:no-repeat;
-  cursor:pointer;
+.contact-form input,
+.contact-form select,
+.contact-form textarea{
+  width: 100%;
+  max-width: 660px;      /* kontrola szerokości */
+  padding: 14px 20px;
+  border-radius: 22px;   /* miękko */
+  border: 1px solid #cfd8dc;
+  font-size: 1rem;
+  text-align: center;    /* tekst na środku */
 }
 
 /* textarea */
-#kontakt form textarea{
-  resize:vertical;
-  min-height:120px;
+.contact-form textarea{
+  min-height: 140px;
+  resize: vertical;
 }
 
-/* przycisk */
-#kontakt form button,
-#kontakt form input[type="submit"]{
-  margin-top:18px;
-  width:100%;
-  padding:14px;
-  font-size:1.05rem;
-  font-weight:700;
-  border:none;
-  border-radius:12px;
-  cursor:pointer;
-  background:var(--accent);
-  color:#fff;
-  transition:transform .15s ease, box-shadow .15s ease;
+/* focus */
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus{
+  outline: none;
+  border-color: #1976d2;
+  box-shadow: 0 0 0 3px rgba(25,118,210,0.15);
+}
+.captcha-row{
+  margin-top: 22px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-#kontakt form button:hover,
-#kontakt form input[type="submit"]:hover{
-  transform:translateY(-2px);
-  box-shadow:0 10px 22px rgba(25,118,210,0.25);
+.captcha-row p{
+  margin-bottom: 10px;
 }
 
-/* MOBILE */
-@media(max-width:640px){
-  #kontakt form{
-    padding:18px;
+.captcha-code{
+  font-size: 1.6rem;
+  letter-spacing: 8px;
+  padding: 8px 20px;
+  border-radius: 22px;
+  background: #e3efff;
+  display: inline-block;
+
+  user-select: none;
+  pointer-events: none;
+}
+
+/* captcha input */
+#captchaInput{
+  max-width: 240px;
+  letter-spacing: 6px;
+}
+
+.submit-btn{
+  margin-top: 30px;
+  padding: 16px 46px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: 999px;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover{
+  background: #125aa5;
+}
+
+@media (max-width: 600px){
+  .contact-form{
+    padding: 22px;
+  }
+
+  .contact-form input,
+  .contact-form select,
+  .contact-form textarea{
+    max-width: 100%;
   }
 }
